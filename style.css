@@ -1,0 +1,36 @@
+/* styles.css */
+
+/* Container styles */
+.container {
+    margin-top: 50px; /* Add some space from the top */
+}
+
+/* Form container styles */
+.form-container {
+    background-color: #f9f9f9; /* Light gray background */
+    padding: 30px; /* Add padding */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Form control styles */
+.form-control {
+    margin-bottom: 20px; /* Add space between form controls */
+}
+
+/* Checkbox label styles */
+.form-check-label {
+    font-weight: 400; /* Normal font weight */
+}
+
+/* Submit button styles */
+.btn-primary {
+    width: 100%; /* Make the submit button full-width */
+    margin-bottom: 10px; /* Add some space between buttons */
+    border-radius: 16px; /* Rounded corners */
+}
+
+#loginBtn, #registerBtn {
+    width: calc(100% - 15px); /* Calculate the width of the button based on the width of the password input field */
+    border-radius: 8px; /* Rounded corners */
+}
